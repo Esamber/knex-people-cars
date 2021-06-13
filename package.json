@@ -1,0 +1,17 @@
+{
+  "name": "people-cars-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "migrate": "knex migrate:latest"  
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.95.6",
+    "tedious": "^11.0.9"
+  }
+}
